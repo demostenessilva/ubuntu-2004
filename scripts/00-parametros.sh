@@ -34,7 +34,7 @@ UBUNTU=$(lsb_release -rs)
 #
 # Variável do Caminho e Nome do arquivo de Log utilizado em todos os script
 # opção da variável de ambiente $0: Nome do comando/script executado
-# opção do redirecionador | (piper): Conecta a saída padrão com a entrada padrão de outro comand
+# opção do redirecionador | (piper): Conecta a saída padrão com a entrada padrão de outro comando
 # opções do comando cut: -d (delimiter), -f (fields)
 LOGSCRIPT="/var/log/$(echo $0 | cut -d'/' -f2)"
 #
